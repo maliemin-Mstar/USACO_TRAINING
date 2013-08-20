@@ -24,7 +24,9 @@ ifstream fin ("shopping.in");
 
 int main()
 {
-	int offer[100][6], s, dp[6][6][6][6][6], original_price[6], amount[6];//dpÎªÂòi¼şÎïÆ·1£¬j¼şÎïÆ·2£¬k¼şÎïÆ·3£¬l¼şÎïÆ·4£¬m¼şÎïÆ·5Ê±£¬ËùĞèµÄ×îÉÙ¼Û¸ñ
+	int offer[100][6], s, dp[6][6][6][6][6], original_price[6], amount[6];
+	//dpÎªï¿½ï¿½iï¿½ï¿½ï¿½ï¿½Æ·1ï¿½ï¿½jï¿½ï¿½ï¿½ï¿½Æ·2ï¿½ï¿½kï¿½ï¿½ï¿½ï¿½Æ·3ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½Æ·4ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½Æ·5Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¼Û¸ï¿½
+	//åˆ†ä¸ºä¸¤ç§æƒ…å†µ ä¸ç”¨ä»»ä½•offerå’Œç”¨ä¸€äº›offer
 	memset(offer, 0, sizeof(offer));
 	memset(dp, 0, sizeof(dp));
 	memset(original_price, 0, sizeof(original_price));
@@ -71,9 +73,12 @@ int main()
 				{
 					for (int m = 0; m <= amount[5]; ++m)
 					{
+						//ä¸ç”¨ä»»ä½•offerçš„æƒ…å†µ
 						dp[i][j][k][l][m] = i * original_price[1] + j * original_price[2] + k * original_price[3] + l * original_price[4] + m * original_price[5];
+						//ç”¨ä¸€äº›offerçš„æƒ…å†µ  forå¾ªç¯æšä¸¾äº†æ‰€æœ‰æƒ…å†µ(å¿…ç”¨ä¸€ç§offerä¸€æ¬¡)
 						for (int n = 0; n < s; ++n)
 						{
+							//å¿…ç”¨ç¬¬nç§offerä¸€æ¬¡
 							if (i >= offer[n][1] && j >= offer[n][2] && k >= offer[n][3] && l >= offer[n][4] && m >= offer[n][5])
 							{
 								dp[i][j][k][l][m] = min(dp[i][j][k][l][m], dp[i - offer[n][1]][j - offer[n][2]][k - offer[n][3]][l - offer[n][4]][m - offer[n][5]] + offer[n][0]);
