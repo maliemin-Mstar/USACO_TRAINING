@@ -1,7 +1,8 @@
 ### 基本信息
-- 马列敏，男
+- 马列敏，男，21岁
 - 浙江工商大学， 计算机科学与技术， 2010级
 - maliemin.jj(AT)gmail.com
+- 18768122386
 
 ### 链接
 - Github: [https://github.com/maliemin-Mstar](https://github.com/maliemin-Mstar)
