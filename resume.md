@@ -4,7 +4,7 @@
 - maliemin.jj(AT)gmail.com
 
 ### 链接
-- Github: [http://github.com/lintianzhi](https://github.com/maliemin-Mstar)
+- Github: [https://github.com/maliemin-Mstar](https://github.com/maliemin-Mstar)
 
 ### 编程语言
 - `C++` 一直用这个东西刷题
