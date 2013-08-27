@@ -40,7 +40,7 @@ ACM很有意思，现场比赛很刺激，难忘的回忆。
 - 可以耐心看书，也看过一些，比如《SICP》，《算法导论》，《c专家编程》等等，或者碰到有需求的时候去翻一下书回顾下或现学。
 - 用RSS订阅一些感兴趣的博客网站看
 - 经常会逛下[V2EX](http://www.v2ex.com/)，看看有什么好玩的或者感兴趣的话题。
-- 平时会做做[topcoder](http://community.topcoder.com/tc)的SRM和[codeforces](http://codeforces.com/)Round，虽然开始的比较晚，但我想一直做下去。
+- 平时会做做[topcoder](http://community.topcoder.com/tc)的SRM和[codeforces](http://codeforces.com/)的Round，虽然开始的比较晚，但我想一直做下去。
 - 在网上看到有用的东西或者做笔记什么的会记在有道云笔记上。
 
 ### 求职意向
